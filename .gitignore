@@ -1,1 +1,15 @@
+# -------------------------------------------------
+# Terraform / OpenTofu state files
+# -------------------------------------------------
+
+*tfstate
+*.tfstate.*
 .terraform
+*.terragrunt-cache
+**/.terragrunt-cache/
+provider.tf
+backend.tf
+*.generated.tf
+
+.env
+
